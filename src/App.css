@@ -1,3 +1,19 @@
+html,
+body,
+.header,
+#intro {
+    min-height: 100vh;
+}
+
+#intro {
+    background: url("./img/analysis-blackboard-board-355952.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .QuizQuestion {
   display: flex;
   justify-content: center;
@@ -32,4 +48,19 @@ button {
 }
 .error {
   color: red;
+}
+.success {
+  color: green
+}
+.card {
+  margin: 210px 5px;
+  width: 360px
+}
+li {
+ list-style: none;
+ display: inline-flex;
+ margin-right: 5px
+}
+button {
+  width: 50px
 }
